@@ -63,3 +63,13 @@
 #app-mount {
     background: var(--myBackground) !important;
 }
+/* Crash Page: */
+.note-Ph806N div p:first-child:after {
+	font-size: 16px;
+	content: "Rip, we crashed. Sorry for that...";
+	color: white;
+}
+.theme-dark .image-35kDIs,
+.theme-light .image-35kDIs {
+	background-image: url('https://github.com/Robotsrule4545/Interstellar-v2/raw/release/Drawing%202022-06-10%2020.59.04.excalidraw.png')
+}
