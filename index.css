@@ -4,18 +4,18 @@
 * @ContactMe: https://discord.gg/rxFQQAWg2c
 * This was inspired by BalaM314/Interstellar. Go check it out!
 */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-/* The @import files are importing google fonts, to be used in these discord themes */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* The @import files are importing google fonts, to be used in these discord themes. Go to google fonts and replace the url with your own fave font! */
 /* Main Code: */
-/* Set vars: */
+/* Set vars, and customize them however you want. */
 :root {
-    --myBackground: url(https://i.imgur.com/3AiL3yN.png);
-    --firstFont: 'Indie Flower';
+    --myBackground: url(https://balam314.github.io/starfield.png);
+    --firstFont: 'Kdam Thmor Pro';
 }
 /* Light Theme */
 .theme-light:root {
-    --background-primary: #cbc8c8 !important;
-    --background-secondary: #a1a0a0 !important;
+    --background-primary: #ffffff00 !important;
+    --background-secondary: #a1a0a018 !important;
     --background-tertiary: #cbc8c8 !important;
     --background-text-area: #434343 !important;
     --background-secondary-alt: transparent !important;
@@ -36,8 +36,8 @@
 }
 /* Dark Theme */
 .theme-dark:root {
-    --background-primary: #6967679e !important;
-    --background-secondary: #2e2e2e9b !important;
+    --background-primary: #ffffff00 !important;
+    --background-secondary: #2e2e2e32 !important;
     --background-tertiary: #3b3a3a7b !important;
     --background-text-area: #91918f !important;
     --background-secondary-alt: transparent !important;
@@ -56,10 +56,12 @@
     --text-muted: #bcbcbc !important;
     --text-link: #cdcdcd !important;
 }
+/* Sets the font, DO NOT EDIT. */
 :root {
     --font-display: var(--firstFont);
     --font-primary: var(--font-display);
 }
+/* Adds the background, DO NOT EDIT. */
 #app-mount {
     background: var(--myBackground) !important;
 }
