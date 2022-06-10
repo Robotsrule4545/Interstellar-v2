@@ -1,0 +1,65 @@
+/* This is robot0730's first theme, a simple one, like the beginner he is. 
+* @name Robot's Theme
+* @author: robot#0730
+* @ContactMe: https://discord.gg/rxFQQAWg2c
+* This was inspired by BalaM314/Interstellar. Go check it out!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* The @import files are importing google fonts, to be used in these discord themes */
+/* Main Code: */
+/* Set vars: */
+:root {
+    --myBackground: url(https://i.imgur.com/3AiL3yN.png);
+    --firstFont: 'Indie Flower';
+}
+/* Light Theme */
+.theme-light:root {
+    --background-primary: #cbc8c8 !important;
+    --background-secondary: #a1a0a0 !important;
+    --background-tertiary: #cbc8c8 !important;
+    --background-text-area: #434343 !important;
+    --background-secondary-alt: transparent !important;
+    --channeltextarea-background: #565656 !important;
+    --background-floating: #c1bebe !important;
+    --scrollbar-thin-thumb: #616161 !important;
+    --scrollbar-thin-track: #838282 !important;
+    --scrollbar-auto-thumb: #a3a1a1 !important;
+    --scrollbar-auto-track: #c6c3c3 !important;
+    --scrollbar-auto-scrollbar-auto-thumb: white !important;
+    --scrollbar-auto-scrollbar-color-track: #d0d3d1 !important;
+    --background-accent: #a0a0a0 !important;
+    --search-popout-option-fade: var(--background-floating) !important;
+    --search-popout-option-fade-hover: var(--background-accent) !important;
+    --text-normal: #000000 !important;
+    --text-muted: #4d4d4d !important;
+    --text-link: #2a2929 !important;
+}
+/* Dark Theme */
+.theme-dark:root {
+    --background-primary: #6967679e !important;
+    --background-secondary: #2e2e2e9b !important;
+    --background-tertiary: #3b3a3a7b !important;
+    --background-text-area: #91918f !important;
+    --background-secondary-alt: transparent !important;
+    --channeltextarea-background: #575757 !important;
+    --background-floating: #a5a2a2 !important;
+    --scrollbar-thin-thumb: #adadad !important;
+    --scrollbar-thin-track: #ffffff !important;
+    --scrollbar-auto-thumb: #a3a1a1 !important;
+    --scrollbar-auto-track: #737373 !important;
+    --scrollbar-auto-scrollbar-auto-thumb: #6a6969 !important;
+    --scrollbar-auto-scrollbar-color-track: #868987 !important;
+    --background-accent: #7d7d7b !important;
+    --search-popout-option-fade: var(--background-floating) !important;
+    --search-popout-option-fade-hover: var(--background-accent) !important;
+    --text-normal: white !important;
+    --text-muted: #bcbcbc !important;
+    --text-link: #cdcdcd !important;
+}
+:root {
+    --font-display: var(--firstFont);
+    --font-primary: var(--font-display);
+}
+#app-mount {
+    background: var(--myBackground) !important;
+}

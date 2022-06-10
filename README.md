@@ -1,2 +1,3 @@
-# Interstellar-v2
-A discord powercord theme inspired by BalaM314/Interstellar .
+# Robot's Theme
+
+A great powercord/betterdiscord theme. Made by robot#0730.
