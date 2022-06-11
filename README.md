@@ -7,6 +7,7 @@ A great powercord/betterdiscord theme. Made by robot#0730.
 - All set!
 # Screenshots:
 - Light mode:
-<img width="1357" alt="Screenshot 2022-06-10 at 9 14 44 PM" src="https://user-images.githubusercontent.com/77372650/173072320-709a107a-74cb-40c3-a37f-b61a94c51f1f.png">
+<img width="1356" alt="Screenshot 2022-06-11 at 11 05 41 AM" src="https://user-images.githubusercontent.com/77372650/173170272-6231b9e0-3538-412b-936c-1b906e5e94e8.png">
+
 - Dark mode:
-<img width="1356" alt="Screenshot 2022-06-10 at 9 15 04 PM" src="https://user-images.githubusercontent.com/77372650/173072388-022f3af0-b593-4c7d-866c-e3fdc4b56937.png">
+<img width="1353" alt="Screenshot 2022-06-11 at 11 05 53 AM" src="https://user-images.githubusercontent.com/77372650/173170277-fccc8bde-8579-450e-b817-ecbad5891820.png">
