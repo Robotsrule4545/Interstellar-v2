@@ -1,4 +1,4 @@
-/* This is robot0730's first theme, a simple one, like the beginner he is. 
+    /* This is robot0730's first theme, a simple one, like the beginner he is. 
 * @name Robot's Theme
 * @author: robot#0730
 * @ContactMe: https://discord.gg/rxFQQAWg2c
@@ -11,28 +11,6 @@
 :root {
     --myBackground: url(https://github.com/Robotsrule4545/Interstellar-v2/raw/main/starfield.png);
     --firstFont: 'Kdam Thmor Pro';
-}
-/* Light Theme */
-.theme-light:root {
-    --background-primary: #ffffff00 !important;
-    --background-secondary: #a1a0a018 !important;
-    --background-tertiary: #cbc8c8 !important;
-    --background-text-area: #434343 !important;
-    --background-secondary-alt: transparent !important;
-    --channeltextarea-background: #565656 !important;
-    --background-floating: #c1bebe !important;
-    --scrollbar-thin-thumb: #616161 !important;
-    --scrollbar-thin-track: #838282 !important;
-    --scrollbar-auto-thumb: #a3a1a1 !important;
-    --scrollbar-auto-track: #c6c3c3 !important;
-    --scrollbar-auto-scrollbar-auto-thumb: white !important;
-    --scrollbar-auto-scrollbar-color-track: #d0d3d1 !important;
-    --background-accent: #a0a0a0 !important;
-    --search-popout-option-fade: var(--background-floating) !important;
-    --search-popout-option-fade-hover: var(--background-accent) !important;
-    --text-normal: #000000 !important;
-    --text-muted: #4d4d4d !important;
-    --text-link: #2a2929 !important;
 }
 /* Dark Theme */
 .theme-dark:root {
