@@ -9,7 +9,7 @@
 /* Main Code: */
 /* Set vars, and customize them however you want. */
 :root {
-    --myBackground: url(https://balam314.github.io/starfield.png);
+    --myBackground: url(https://github.com/Robotsrule4545/Interstellar-v2/raw/main/starfield.png);
     --firstFont: 'Kdam Thmor Pro';
 }
 /* Light Theme */
@@ -37,12 +37,12 @@
 /* Dark Theme */
 .theme-dark:root {
     --background-primary: #ffffff00 !important;
-    --background-secondary: #2e2e2e32 !important;
+    --background-secondary: #2e2e2e00 !important;
     --background-tertiary: #3b3a3a7b !important;
     --background-text-area: #91918f !important;
     --background-secondary-alt: transparent !important;
     --channeltextarea-background: #575757 !important;
-    --background-floating: #a5a2a2 !important;
+    --background-floating: #383838 !important;
     --scrollbar-thin-thumb: #adadad !important;
     --scrollbar-thin-track: #ffffff !important;
     --scrollbar-auto-thumb: #a3a1a1 !important;
@@ -60,18 +60,17 @@
 :root {
     --font-display: var(--firstFont);
     --font-primary: var(--font-display);
+
 }
 /* Adds the background, DO NOT EDIT. */
 #app-mount {
     background: var(--myBackground) !important;
+    background-size: cover !important;
+	background-position: center !important;
 }
-/* Crash Page: */
-.note-Ph806N div p:first-child:after {
-	font-size: 16px;
-	content: "Rip, we crashed. Sorry for that...";
-	color: white;
+[id^="status-picker-"] {
+	background-color: #797979 !important;
 }
-.theme-dark .image-35kDIs,
-.theme-light .image-35kDIs {
-	background-image: url('https://github.com/Robotsrule4545/Interstellar-v2/raw/release/Drawing%202022-06-10%2020.59.04.excalidraw.png')
+.root-SR8cQa {
+	background-color: #ffffff00;
 }
