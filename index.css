@@ -1,26 +1,28 @@
-    /* This is robot0730's first theme, a simple one, like the beginner he is. 
+/* This is robot0730's first theme, a simple one, like the beginner he is. 
 * @name Robot's Theme
 * @author: robot#0730
 * @ContactMe: https://discord.gg/rxFQQAWg2c
 * This was inspired by BalaM314/Interstellar. Go check it out!
 */
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* The @import files are importing google fonts, to be used in these discord themes. Go to google fonts and replace the url with your own fave font! */
 /* Main Code: */
 /* Set vars, and customize them however you want. */
 :root {
     --myBackground: url(https://github.com/Robotsrule4545/Interstellar-v2/raw/main/starfield.png);
-    --firstFont: 'Kdam Thmor Pro';
+    --firstFont: 'Open Sans';
 }
 /* Dark Theme */
 .theme-dark:root {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
     --background-primary: #ffffff00 !important;
     --background-secondary: #2e2e2e00 !important;
-    --background-tertiary: #3b3a3a7b !important;
+    --background-tertiary: #00000024 !important;
     --background-text-area: #91918f !important;
     --background-secondary-alt: transparent !important;
     --channeltextarea-background: #575757 !important;
-    --background-floating: #383838 !important;
+    --background-floating: #515151 !important;
     --scrollbar-thin-thumb: #adadad !important;
     --scrollbar-thin-track: #ffffff !important;
     --scrollbar-auto-thumb: #a3a1a1 !important;
@@ -33,12 +35,15 @@
     --text-normal: white !important;
     --text-muted: #bcbcbc !important;
     --text-link: #cdcdcd !important;
+    --interactive-normal: #a3c7fd;
+    --interactive-hover: #1e5c9a;
+    --interactive-active: #fff;
+    --interactive-muted: #979fac;
 }
 /* Sets the font, DO NOT EDIT. */
 :root {
-    --font-display: var(--firstFont);
-    --font-primary: var(--font-display);
-
+    --font-display: var(--firstFont) !important;
+    --font-primary: var(--font-display) !important;
 }
 /* Adds the background, DO NOT EDIT. */
 #app-mount {
@@ -49,6 +54,67 @@
 [id^="status-picker-"] {
 	background-color: #797979 !important;
 }
-.root-SR8cQa {
-	background-color: #ffffff00;
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 1;
+    border: 2;
+    vertical-align: baseline;
+}
+.appMount-2yBXZl, body {
+    background-color: var(--interactive-normal) !important;
+}
+.appMount-2yBXZl, body, html {
+    height: 100%;
+    width: 100%;
+}
+.bar-2eAyLE {
+    color: rgb(69, 67, 67);
+}
+/* Making stuff round */
+.sidebar-1tnWFu {
+    border-radius: 10px;
+}
+.panels-3wFtMD {
+    border-radius: 30px;
+    background-color: #5555557d !important;
+}
+.sidebar-1tnWFu {
+    border-radius: 30px !important;
+    background: #5555557d !important;
+}
+.wrapper-1_HaEi {
+    background-color: #323232d9;
+    border-radius: 30px !important;
+}
+.title-31SJ6t, .container-ZMc96U, .themed-Hp1KC_ {
+    border-radius: 30px !important;
+    background-color: #297cf8;/* Doesnt work??? */
+}
+.newMessagesBar-1hF-9G, .barBase-3xxDXu {
+    border-radius: 30px !important;
+}
+.message-2CShn3 { /* I dont understand the mumbo jumbo that they stick onto the ends of their messages... */
+    border-radius: 30px !important;
+    --background-color: #5555557d !important;
+}
+#chat-messages-985038588293025792 {
+    border-radius: 30px !important;
+    --background-color: #5555557d !important;
+}
+.chat-2ZfjoI {
+    background: transparent;
+}
+.listItem-3SmSlK {
+    border-radius: 100px !important;
+}
+.channelTextArea-1FufC0, .channelTextArea-1VQBuV {
+    border-radius: 30px;
+    background-color: transparent !important;
+}
+.form-3gdLxP {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.layer-86YKbF {
+    background-color: #5a5a5a7a;
 }
